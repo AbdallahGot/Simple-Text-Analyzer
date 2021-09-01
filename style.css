@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 5%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cont{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+form{
+    width: 48%;
+}
+textarea{
+    width:100%;
+}
+.result{
+    width: 48%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+.myResult{
+    display:flex;
+    justify-content:space-between;
+}
+input{
+    color:blue;
+    padding:8px;
+    border-color:blue;
+    border-radius:5px;
+}
